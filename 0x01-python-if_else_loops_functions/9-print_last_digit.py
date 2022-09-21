@@ -6,4 +6,4 @@ def print_last_digit(number):
         sign = ''
     str_numb = str(number)
     last_digit = str_numb[-1]
-    print("{}".format(last_digit))
+    print("{}".format(int(last_digit)))
