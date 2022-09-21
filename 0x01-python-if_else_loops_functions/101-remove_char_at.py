@@ -8,4 +8,3 @@ def remove_char_at(str, n):
         else:
             continue
     print('{}'.format(new_str))
-remove_char_at('hello boss man', -7)
