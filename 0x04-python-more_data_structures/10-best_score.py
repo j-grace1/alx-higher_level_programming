@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+# 10-best_score.py
 def best_score(a_dictionary):
     if len(a_dictionary) > 0:
         score_list = []
