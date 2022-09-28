@@ -8,3 +8,4 @@ def update_dictionary(a_dictionary, key, value):
         else:
             a_dictionary.update({key: value})
             break
+    return(a_dictionary)
