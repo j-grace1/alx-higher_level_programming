@@ -1,4 +1,5 @@
-
+#!/usr/bin/python3
+# 0-square_matrix_simple.py
 def best_score(a_dictionary):
     if len(a_dictionary) > 0:
         for i in a_dictionary:
