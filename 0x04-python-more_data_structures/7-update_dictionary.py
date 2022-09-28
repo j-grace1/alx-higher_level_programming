@@ -4,5 +4,7 @@ def update_dictionary(a_dictionary, key, value):
     for i in a_dictionary:
         if key == a_dictionary[i]:
             a_dictionary[i] = value
+            break
         else:
             a_dictionary.update({key: value})
+            break
