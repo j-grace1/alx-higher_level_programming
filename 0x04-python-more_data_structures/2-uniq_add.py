@@ -5,4 +5,4 @@ def uniq_add(my_list=[]):
     y = 0
     for i in sorted:
         y = y + i
-    return ('Result: {}'.format(y))
+    return y
