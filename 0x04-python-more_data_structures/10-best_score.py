@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 8-simple_delete.py
+# 10-best_score.py
 def best_score(a_dictionary):
     values = []
     keys = []
