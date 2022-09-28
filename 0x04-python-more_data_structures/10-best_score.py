@@ -8,7 +8,6 @@ def best_score(a_dictionary):
             keys.append(i)
             values.append(a_dictionary[i])
         values1 = sorted(values)
-        print(values)
-        print(keys[(values.index(values1[-1]))])
+        return(keys[(values.index(values1[-1]))])
     else:
         return None
