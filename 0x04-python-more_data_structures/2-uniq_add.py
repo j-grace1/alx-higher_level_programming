@@ -6,4 +6,5 @@ def uniq_add(my_list=[]):
     new_list = []
     for i in sorted:
         y = y + i
+    new_list.append(y)
     return new_list
