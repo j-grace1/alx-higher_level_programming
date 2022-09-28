@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-# 0-square_matrix_simple.py
+# 8-simple_delete.py
 def best_score(a_dictionary):
+    values = []
+    keys = []
     if len(a_dictionary) > 0:
         for i in a_dictionary:
-            if i == (sorted(a_dictionary.values)[-1]):
-                return(i)
-            else:
-                continue
+            keys.append(i)
+            values.append(a_dictionary[i])
+        values1 = sorted(values)
+        print(values)
+        print(keys[(values.index(values1[-1]))])
     else:
         return None
-best_score({'John': 12, 'Bob': 14, 'Mike': 14, 'Molly': 16, 'Adam': 10})
