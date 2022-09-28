@@ -3,8 +3,6 @@
 def uniq_add(my_list=[]):
     sorted = set(my_list)
     y = 0
-    new_list = []
     for i in sorted:
         y = y + i
-    new_list.append(y)
-    return new_list
+    return ('Result: {}'.format(y))
